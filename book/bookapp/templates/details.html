@@ -1,0 +1,22 @@
+<html>
+<body><center>
+<h1>data:-</h1>
+<table border="2px">
+	<tr>
+	<th>Book Name</th>
+	<th>Book Author</th>
+	<th>Book Price</th></tr>
+	{% for d in data %}
+	<tr>
+		
+		<td>{{d.bname}}</td>
+		<td>{{d.bauthor}}</td>
+		<td>{{d.bprice}}</td>
+		
+	</tr><br>
+	{% endfor %}
+</table>
+
+<button ><a href="/newbook/">Home</a></button></center>
+</body>
+</html>
